@@ -1,18 +1,19 @@
+// inheritance 
 public class WelcomeNotes{
     public void Greetings(){
         System.out.println("Welcome to java");
     }
 }
-class Guesture extends WelcomeNotes{
+class Guesture extends WelcomeNotes{ // multilevel or hierarchial inheritance 
     public void Greetings(){
         System.out.println("Practise make a man perfect");
     }
 }
-interface A {
+interface A { // type two inheritance using interface
     public void Greetings();
 
     }
-class learner extends WelcomeNotes implements A{
+class learner extends WelcomeNotes implements A{ // hybrid inheritance
     public void Greetings(){
         System.out.println("Consistency in learning makes a learner better");
     }
