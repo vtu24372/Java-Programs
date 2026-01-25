@@ -19,7 +19,7 @@ public class arrayOperation{
             System.out.println(i);
         }
 
-        // how to chnage the element in the array with its index value
+        // how to change the element in the array with its index value
         numbers[0]=100;
         numbers[5]=600;
         System.out.println(numbers[0]);
